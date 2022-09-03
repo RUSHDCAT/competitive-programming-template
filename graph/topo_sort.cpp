@@ -12,6 +12,7 @@ int main() {
         g[u].push_back(v);
     }
 
+    // given a graph G, 0 indexed. find some topo order.
     auto topo = [&](int n, vector<vector<int> > &g) {
         vector<int> d(n, 0);
         for (int i = 0; i < n; i ++) for (auto j: g[i]) d[j] ++;

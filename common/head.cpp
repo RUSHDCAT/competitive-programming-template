@@ -7,9 +7,4 @@ const int N = 200000 + 10;
 int main() {
     ios::sync_with_stdio(false);
     cout.tie(0);
-    int t;
-    cin >> t;
-    while (t --) {
-        
-    }
 }

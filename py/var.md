@@ -6,8 +6,6 @@ def outer():
         d["cat"] = "chicken"
         
 ```
-
-
 ### global variable
 
 A variable declared outside of the function or in **global scope** is known as a global variable.
@@ -15,8 +13,6 @@ A variable declared outside of the function or in **global scope** is known as a
 ### local variable 
 
 A variable declared inside the function's body or in the **local scope** is known as a local variable.
-
-
 
 ### keyword global
 
