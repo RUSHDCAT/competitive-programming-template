@@ -22,4 +22,11 @@ def outer_2():
     inner()
     print(x, dic)
     
-outer_2()
+st = '''23 
+
+
+
+212
+1 3'''
+
+print(st.split())
