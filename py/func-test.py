@@ -1,3 +1,6 @@
+from fcntl import DN_DELETE
+
+
 def outer():
     x = 2
     dic = {"dog":"gou"}
@@ -27,6 +30,7 @@ st = '''23
 
 
 212
-1 3'''
+1 3   '''
 
 print(st.split())
+
