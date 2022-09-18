@@ -18,3 +18,16 @@ auto max_cover = [&](vector<pair<int,int> > seg) {
     }
     return ans;
 };
+
+auto union = [&](vector<pair<int,int> > seg) {
+    sort(seg.begin(), seg.end());
+    vector<pair<int,int> > res;
+    for (int i = 0, j = 0; i < seg.size(); i = j) {
+        int l = seg[i].first, r = seg[i].second;
+        while (j < seg.size() and seg[j].first <= r) {
+            r = max(seg[j].second); j ++;
+        }
+        res.push_back({l, r});
+    }
+    return res;
+}
